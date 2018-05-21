@@ -9,7 +9,7 @@ public class FighterJetTest {
 
     @Before
     public void before(){
-        fighterjet = new FighterJet("FighterJet", 30, 100);
+        fighterjet = new FighterJet("FighterJet", 30, 40, 100);
     }
 
     @Test
@@ -18,12 +18,17 @@ public class FighterJetTest {
     }
 
     @Test
-    public void canGetVehicleAttackValue(){
-        assertEquals(30, fighterjet.getVehicleAttackValue());
+    public void canGetVehicleAttackValue1(){
+        assertEquals(30, fighterjet.getVehicleAttackValue1());
+    }
+
+    @Test
+    public void canGetVehicleAttackValue2(){
+        assertEquals(40, fighterjet.getVehicleAttackValue2());
     }
 
     @Test
     public void canGetVehicleHealthValue(){
-        assertEquals(100,fighterjet.getVehicleHealthVaule());
+        assertEquals(100,fighterjet.getVehicleHealthValue());
     }
 }

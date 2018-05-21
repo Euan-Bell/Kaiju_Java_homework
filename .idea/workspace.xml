@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a74e69c-16a1-475d-8a29-0d42a734e6bf" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/FighterJet.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Tank.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Vehicle.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/FighterJetTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/TankTest.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FighterJet.java" afterPath="$PROJECT_DIR$/src/main/java/FighterJet.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Vehicle.java" afterPath="$PROJECT_DIR$/src/main/java/Vehicle.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FighterJetTest.java" afterPath="$PROJECT_DIR$/src/test/java/FighterJetTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -45,18 +40,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Vehicle.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Vehicle.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Vehicle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+            <state relative-caret-position="264">
+              <caret line="20" column="35" lean-forward="true" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
               <folding>
-                <element signature="e#417#418#0" expanded="true" />
-                <element signature="e#451#452#0" expanded="true" />
-                <element signature="e#493#494#0" expanded="true" />
-                <element signature="e#534#535#0" expanded="true" />
-                <element signature="e#576#577#0" expanded="true" />
-                <element signature="e#617#618#0" expanded="true" />
+                <element signature="e#539#540#0" expanded="true" />
+                <element signature="e#573#574#0" expanded="true" />
+                <element signature="e#616#617#0" expanded="true" />
+                <element signature="e#658#659#0" expanded="true" />
+                <element signature="e#701#702#0" expanded="true" />
+                <element signature="e#743#744#0" expanded="true" />
+                <element signature="e#785#786#0" expanded="true" />
+                <element signature="e#826#827#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -72,21 +69,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FighterJetTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="FighterJetTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/FighterJetTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+            <state relative-caret-position="222">
+              <caret line="16" column="63" lean-forward="true" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#190#191#0" expanded="true" />
-                <element signature="e#256#257#0" expanded="true" />
-                <element signature="e#304#305#0" expanded="true" />
-                <element signature="e#374#375#0" expanded="true" />
-                <element signature="e#429#430#0" expanded="true" />
-                <element signature="e#497#498#0" expanded="true" />
-                <element signature="e#552#553#0" expanded="true" />
-                <element signature="e#620#621#0" expanded="true" />
+                <element signature="e#260#261#0" expanded="true" />
+                <element signature="e#308#309#0" expanded="true" />
+                <element signature="e#378#379#0" expanded="true" />
+                <element signature="e#434#435#0" expanded="true" />
+                <element signature="e#503#504#0" expanded="true" />
+                <element signature="e#559#560#0" expanded="true" />
+                <element signature="e#628#629#0" expanded="true" />
+                <element signature="e#683#684#0" expanded="true" />
+                <element signature="e#751#752#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -695,6 +694,18 @@
     <history-entry file="FighterJetTest - 2018.05.21 at 18h 09m 13s.xml">
       <configuration name="FighterJetTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="FighterJetTest - 2018.05.21 at 18h 23m 21s.xml">
+      <configuration name="FighterJetTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FighterJetTest - 2018.05.21 at 18h 23m 53s.xml">
+      <configuration name="FighterJetTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FighterJetTest - 2018.05.21 at 18h 27m 44s.xml">
+      <configuration name="FighterJetTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FighterJetTest - 2018.05.21 at 18h 28m 00s.xml">
+      <configuration name="FighterJetTest" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="GodzillaTest - 2018.05.21 at 17h 42m 02s.xml">
       <configuration name="GodzillaTest" configurationId="JUnit" />
     </history-entry>
@@ -820,20 +831,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/FighterJetTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Vehicle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+        <state relative-caret-position="264">
+          <caret line="20" column="35" lean-forward="true" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#190#191#0" expanded="true" />
-            <element signature="e#256#257#0" expanded="true" />
-            <element signature="e#304#305#0" expanded="true" />
-            <element signature="e#374#375#0" expanded="true" />
-            <element signature="e#429#430#0" expanded="true" />
-            <element signature="e#497#498#0" expanded="true" />
-            <element signature="e#552#553#0" expanded="true" />
-            <element signature="e#620#621#0" expanded="true" />
+            <element signature="e#539#540#0" expanded="true" />
+            <element signature="e#573#574#0" expanded="true" />
+            <element signature="e#616#617#0" expanded="true" />
+            <element signature="e#658#659#0" expanded="true" />
+            <element signature="e#701#702#0" expanded="true" />
+            <element signature="e#743#744#0" expanded="true" />
+            <element signature="e#785#786#0" expanded="true" />
+            <element signature="e#826#827#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -846,17 +856,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Vehicle.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/FighterJetTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        <state relative-caret-position="222">
+          <caret line="16" column="63" lean-forward="true" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
           <folding>
-            <element signature="e#417#418#0" expanded="true" />
-            <element signature="e#451#452#0" expanded="true" />
-            <element signature="e#493#494#0" expanded="true" />
-            <element signature="e#534#535#0" expanded="true" />
-            <element signature="e#576#577#0" expanded="true" />
-            <element signature="e#617#618#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#190#191#0" expanded="true" />
+            <element signature="e#260#261#0" expanded="true" />
+            <element signature="e#308#309#0" expanded="true" />
+            <element signature="e#378#379#0" expanded="true" />
+            <element signature="e#434#435#0" expanded="true" />
+            <element signature="e#503#504#0" expanded="true" />
+            <element signature="e#559#560#0" expanded="true" />
+            <element signature="e#628#629#0" expanded="true" />
+            <element signature="e#683#684#0" expanded="true" />
+            <element signature="e#751#752#0" expanded="true" />
           </folding>
         </state>
       </provider>

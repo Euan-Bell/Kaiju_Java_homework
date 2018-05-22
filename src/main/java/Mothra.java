@@ -6,7 +6,7 @@ public class Mothra extends Kaiju {
 
     @Override
     public String canRoar() {
-        return "ROOOOAAAARRRR!";
+        return "SCREECH!";
     }
 
 //    @Override

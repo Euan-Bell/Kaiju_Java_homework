@@ -6,11 +6,13 @@ import static org.junit.Assert.assertEquals;
 public class GodzillaTest {
 
     Godzilla godzilla;
+    FighterJet fighterjet;
 
 
     @Before
     public void before(){
         godzilla = new Godzilla("Godzilla", 100, 80);
+        fighterjet = new FighterJet( "fighterJet", 30, 40, 100);
     }
 
     @Test
@@ -28,15 +30,15 @@ public class GodzillaTest {
         assertEquals(80,godzilla.getAttackValue());
     }
 
-    @Test
-    public void canDamageKaiju(){
-        assertEquals(70, godzilla.getHealthValue() - 30);
-    }
-
 //    @Test
 //    public void canDamageKaiju(){
-//        assertEquals(20, godzilla.getHealthValue() - fighterjet.getAttackValue1());
+//        assertEquals(70, godzilla.getHealthValue() - 30);
 //    }
+
+    @Test
+    public void canDamageKaiju(){
+        assertEquals(70, godzilla.getHealthValue() - fighterjet.getVehicleAttackValue1());
+    }
 
 
 }

@@ -11,6 +11,7 @@ public class FighterJetTest {
     @Before
     public void before(){
         fighterjet = new FighterJet("FighterJet", 30, 40, 100);
+        godzilla = new Godzilla("Godzilla",100,80);
     }
 
     @Test
@@ -34,13 +35,13 @@ public class FighterJetTest {
     }
 
 
-    @Test
-    public void canDamageVehicle(){
-        assertEquals(20, fighterjet.getVehicleHealthValue() - 80);
-    }
-
 //    @Test
 //    public void canDamageVehicle(){
-//        assertEquals(20, fighterjet.getVehicleHealthValue() - godzilla.getAttackValue());
+//        assertEquals(20, fighterjet.getVehicleHealthValue() - 80);
 //    }
+
+    @Test
+    public void canDamageVehicle(){
+        assertEquals(20, fighterjet.getVehicleHealthValue() - godzilla.getAttackValue());
+    }
 }

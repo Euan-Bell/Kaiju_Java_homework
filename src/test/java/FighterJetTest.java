@@ -6,6 +6,7 @@ import static org.junit.Assert.assertEquals;
 public class FighterJetTest {
 
     FighterJet fighterjet;
+    Godzilla godzilla;
 
     @Before
     public void before(){
@@ -31,4 +32,15 @@ public class FighterJetTest {
     public void canGetVehicleHealthValue(){
         assertEquals(100,fighterjet.getVehicleHealthValue());
     }
+
+
+    @Test
+    public void canDamageVehicle(){
+        assertEquals(20, fighterjet.getVehicleHealthValue() - 80);
+    }
+
+//    @Test
+//    public void canDamageVehicle(){
+//        assertEquals(20, fighterjet.getVehicleHealthValue() - godzilla.getAttackValue());
+//    }
 }

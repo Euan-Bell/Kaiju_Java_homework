@@ -7,6 +7,7 @@ public class GodzillaTest {
 
     Godzilla godzilla;
 
+
     @Before
     public void before(){
         godzilla = new Godzilla("Godzilla", 100, 80);
@@ -26,4 +27,18 @@ public class GodzillaTest {
     public void canGetAttackValue(){
         assertEquals(80,godzilla.getAttackValue());
     }
+
+    @Test
+    public void canDamageKaiju(){
+        assertEquals(70, godzilla.getHealthValue() - 30);
+    }
+
+//    @Test
+//    public void canDamageKaiju(){
+//        assertEquals(20, godzilla.getHealthValue() - fighterjet.getAttackValue1());
+//    }
+
+
 }
+
+

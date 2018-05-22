@@ -28,4 +28,5 @@ public abstract class Vehicle {
     public int getVehicleHealthValue() {
         return vehicleHealthValue;
     }
+
 }

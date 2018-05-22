@@ -9,5 +9,10 @@ public class Godzilla extends Kaiju {
         return "ROOOOAAAARRRR!";
     }
 
+//    public int monsterAttack(){
+//        return - Godzilla.attackValue();
+//    }
+
+
 
 }

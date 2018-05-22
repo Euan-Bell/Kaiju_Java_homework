@@ -23,5 +23,9 @@
      }
 
      public abstract String canRoar();
+
+//     public abstract int monsterAttack();
+//
+
  }
 
